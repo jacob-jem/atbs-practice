@@ -9,30 +9,30 @@ The programs were written for Python 3 and developed on macOS with Python 3.14.
 
 ## Programs
 
-### Chapter 11
+### Chapter 11: Organizing Files
 
 | Program | What it does | Usage |
 |---|---|---|
-| `selectively_copying.py` | Copies all `.pdf` and `.jpg` files from one folder tree to another, keeping the folder structure | `python3 selectively_copying.py <source_folder> <destination_folder>` |
-| `find_large_files.py` | Lists folders and files larger than 100 MB | `python3 find_large_files.py <folder>` |
-| `renumbering_files.py` | Renames numbered files so the numbers run 1, 2, 3, ... with no gaps | `python3 renumbering_files.py <folder> <prefix>` |
-| `insert_gaps.py` | Renames numbered files to leave a gap at a chosen number | `python3 insert_gaps.py <folder> <prefix> <insert_number>` |
-| `converting_dates.py` | Renames files so dates in the filename change from MM-DD-YYYY to DD-MM-YYYY | `python3 converting_dates.py <folder>` |
+| [`selectively_copying.py`](chapter-11/selectively_copying.py) | Copies all `.pdf` and `.jpg` files from one folder tree to another, keeping the folder structure | `python3 selectively_copying.py <source_folder> <destination_folder>` |
+| [`find_large_files.py`](chapter-11/find_large_files.py) | Lists folders and files larger than 100 MB | `python3 find_large_files.py <folder>` |
+| [`renumbering_files.py`](chapter-11/renumbering_files.py) | Renames numbered files so the numbers run 1, 2, 3, ... with no gaps | `python3 renumbering_files.py <folder> <prefix>` |
+| [`insert_gaps.py`](chapter-11/insert_gaps.py) | Renames numbered files to leave a gap at a chosen number | `python3 insert_gaps.py <folder> <prefix> <insert_number>` |
+| [`converting_dates.py`](chapter-11/converting_dates.py) | Renames files so dates in the filename change from MM-DD-YYYY to DD-MM-YYYY | `python3 converting_dates.py <folder>` |
 
-### Chapter 13
-
-| Program | What it does | Usage |
-|---|---|---|
-| `2048.py` | Plays 2048 in Chrome by pressing random arrow keys until the game ends | `python3 2048.py` |
-| `link_verification.py` | Checks the links on a web page and reports the broken ones | `python3 link_verification.py <url>` |
-| `unsplash_downloader.py` | Downloads photos from Unsplash that match search keywords | `python3 unsplash_downloader.py -s <keyword> [<keyword> ...] [-n <number>]` |
-
-### Chapter 19
+### Chapter 13: Web Scraping
 
 | Program | What it does | Usage |
 |---|---|---|
-| `friday13th_finder.py` | Prints the next 10 Friday the 13ths and all the previous ones | `python3 friday13th_finder.py` |
-| `stopwatch.py` | A stopwatch that records lap times and copies them to the clipboard | `python3 stopwatch.py` |
+| [`2048.py`](chapter-13/2048.py) | Plays 2048 in Chrome by pressing random arrow keys until the game ends | `python3 2048.py` |
+| [`link_verification.py`](chapter-13/link_verification.py) | Checks the links on a web page and reports the broken ones | `python3 link_verification.py <url>` |
+| [`unsplash_downloader.py`](chapter-13/unsplash_downloader.py) | Downloads photos from Unsplash that match search keywords | `python3 unsplash_downloader.py -s <keyword> [<keyword> ...] [-n <number>]` |
+
+### Chapter 19: Keeping Time, Scheduling Tasks, and Launching Programs
+
+| Program | What it does | Usage |
+|---|---|---|
+| [`friday13th_finder.py`](chapter-19/friday13th_finder.py) | Prints the next 10 Friday the 13ths and all the previous ones | `python3 friday13th_finder.py` |
+| [`stopwatch.py`](chapter-19/stopwatch.py) | A stopwatch that records lap times and copies them to the clipboard | `python3 stopwatch.py` |
 
 Each program's docstring, at the top of its file, describes it in more detail.
 
