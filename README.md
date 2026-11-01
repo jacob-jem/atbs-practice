@@ -64,6 +64,12 @@ Some programs need more than that:
 - `link_verification.py` does not follow a page's `<base href>` tag when it
   works out where relative links point.
 
+## Credit
+
+`stopwatch.py` is a modified version of the Project 14 stopwatch from [Automate the Boring Stuff with Python, 3rd edition](https://automatetheboringstuff.com/3e/) by Al Sweigart. The other programs are my own solutions to the book's practice projects.
+
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+The code is licensed under the [MIT License](LICENSE), except `stopwatch.py`, which is licensed under [CC BY-NC-SA 4.0](LICENSE-STOPWATCH) because it is based on the book's code.
+
+The MIT License does not cover the book's material listed under Credit.

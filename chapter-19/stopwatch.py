@@ -1,3 +1,8 @@
+# Based on the Project 14 stopwatch from "Automate the Boring Stuff with Python",
+# 3rd edition, by Al Sweigart. Copyright (c) 2025 Al Sweigart.
+# Modifications Copyright (c) 2026 Jacob Ma.
+# Licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/). See LICENSE-STOPWATCH.
+
 """A simple stopwatch that records lap times and copies them to the clipboard.
 
 Usage: python3 stopwatch.py
